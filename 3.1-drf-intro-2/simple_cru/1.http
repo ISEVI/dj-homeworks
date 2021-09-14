@@ -1,0 +1,10 @@
+POST  http://localhost:8000/api/v1/project/
+Content-Type: application/json
+
+{"name": "oib", "latitude": 0, "longitude": 3}
+
+
+###
+GET http://localhost:8000/api/v1/project/3
+Content-Type: application/json
+
